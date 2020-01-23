@@ -1,1 +1,153 @@
-<!-- In this file you are going to write the CSS code -->
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+a {
+  padding:8px;
+  color: rgb(8, 6, 6);
+  text-decoration: none;
+  font-weight:600;
+  opacity: 0.85;
+  margin: 8px;
+  border-radius:10px;
+}
+
+/* a:visited{color: green;
+    } user has visited*/
+a:hover {
+  color: rgb(37, 15, 15);
+  border: 2px solid rgba(179, 113, 21,0.55) ;
+  background-color:rgba(179, 113, 21,0.45);
+  padding: 5px;
+  opacity:0.75;
+} 
+/*mouse on link*/
+a:active {
+  color: blue;
+}
+
+.img1 {
+  width: 4rem;
+  height: auto;
+}
+.div1 {
+  background-image: url("../img/billboard.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#nav_list {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  align-items: center;
+}
+.nav_bar {
+  width: 90%;
+  margin: auto;
+  
+}
+.transparent_nav {
+  background-color: rgba(250, 247, 250, 0.7);
+   
+}
+#cta_text {
+  display: inline;
+  font-weight: bolder;
+  opacity: 0.65;
+}
+#cta_link{
+    background-color: rgb(47, 178, 218);
+}
+
+.cta {
+  background-color: rgba(250, 247, 250, 0.7);
+  margin-bottom: 0px;
+  margin-top: 40%;
+
+  padding: 30px;
+}
+#cta_link {
+  float: right;
+}
+.wrapper {
+  background-image: linear-gradient(white, rgba(250, 247, 250, 0.7));
+  opacity: 0.65;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+.li1 img {
+  margin: 12%;
+  margin-left: 30%;
+}
+
+.h4 {
+  width: 200px;
+  opacity: 0.9;
+  font-weight: 900;
+  margin: auto;
+}
+.p5 {
+  width: 280px;
+  opacity: 0.65;
+  padding: 15px;
+  padding-top: 10px;
+  text-align: left;
+  text-align-last: center;
+}
+.recent_work img {
+  width: 269.5px;
+  float: left;
+  height: auto;
+}
+.testimonials {
+  clear: both;
+  background-image: linear-gradient(white, rgba(250, 247, 250, 0.7));
+}
+.img8 {
+  border: 1px solid rgba(250, 247, 250, 0.7);
+  border-radius: 50%;
+  margin: 10%;
+}
+.footer {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+}
+.p1 {
+  width: 300px;
+}
+.footer {
+  background-color: rgba(32, 32, 32);
+  color: rgb(243, 227, 197);
+}
+.p2 {
+  width: 220px;
+}
+#comp_list,
+#sup_list {
+  display: inline-block;
+  flex-direction: column;
+  padding-left: 0rem;
+}
+.anc1 {
+  color: rgb(243, 227, 197);
+}
+.footer_widget {
+  margin-left: 5rem;
+}
+.rights {
+  margin: 0rem;
+  padding-bottom: 20px;
+  background-color: rgba(32, 32, 32);
+  color: rgb(243, 227, 197);
+  text-align: center;
+}
