@@ -117,7 +117,7 @@ ul {
   border-radius: 50%;
   margin: 10%;
 }
-.footer {
+.footer_widget{
   display: flex;
   padding: 100px;
   justify-content: center;
@@ -125,7 +125,7 @@ ul {
 .p1 {
   width: 300px;
 }
-.footer {
+.footer_widget{
   background-color: rgba(32, 32, 32);
   color: rgb(243, 227, 197);
 }
@@ -141,7 +141,7 @@ ul {
 .anc1 {
   color: rgb(243, 227, 197);
 }
-.footer_widget {
+.footer_widge{
   margin-left: 5rem;
 }
 .rights {
